@@ -1,0 +1,40 @@
+<h3>Requirements</h3>
+<ul>
+  <li>
+    Use
+    <a href="https://jsonplaceholder.typicode.com/">jsonplaceholder API</a> to
+    fetch todo items
+  </li>
+  <li>
+    Render checkbox with <code>completed</code> status near each of the todo
+    item
+  </li>
+  <li>Use a separate Angular service to fetch data from API</li>
+  <li>Replace the initial markup with the app markup</li>
+</ul>
+<h3>API usage example</h3>
+<pre>
+      fetch('https://jsonplaceholder.typicode.com/todos')
+      .then(response => response.json())
+      .then(json => console.log(json))
+    </pre
+>
+<h3>Hints</h3>
+<ul>
+  <li>
+    You can use Angular schematics in Stackblitz. Right click on a folder,
+    choose Angular Generator.
+  </li>
+</ul>
+
+<h3>Stackblitz Troubleshooting</h3>
+<ul>
+  <li>
+    If the component's template is not rendered or updated, try removing the
+    component tag i.e.
+    <code
+      >&lt;component>&lt;/component> from the application template and then add
+      it again</code
+    >
+  </li>
+</ul>
